@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://veneziaeyewear.com/sitemap.xml

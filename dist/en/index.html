@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Venezia Eyewear — Author eyewear inspired by Venice</title>
+  <meta name="description" content="Eleven frames carrying the names of eleven Venetian places. Italian design and proportions, selected acetates and metals.">
+  <link rel="canonical" href="https://veneziaeyewear.com/en/">
+  <link rel="alternate" hreflang="it" href="https://veneziaeyewear.com/it/">
+  <link rel="alternate" hreflang="en" href="https://veneziaeyewear.com/en/">
+  <link rel="alternate" hreflang="es" href="https://veneziaeyewear.com/es/">
+  <link rel="alternate" hreflang="x-default" href="https://veneziaeyewear.com/it/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Venezia Eyewear">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:title" content="Venezia Eyewear — Author eyewear inspired by Venice">
+  <meta property="og:description" content="Eleven frames carrying the names of eleven Venetian places. Italian design and proportions, selected acetates and metals.">
+  <meta property="og:url" content="https://veneziaeyewear.com/en/">
+  <meta property="og:image" content="https://veneziaeyewear.com/assets/img/og/default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#080808">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link rel="preload" href="/assets/fonts/cormorant-garamond-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter-300.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <script>document.documentElement.classList.remove('no-js');</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Venezia Eyewear","url":"https://veneziaeyewear.com","email":"info@veneziaeyewear.com","telephone":"+39 000 000 0000","address":{"@type":"PostalAddress","streetAddress":"TODO","addressLocality":"Venezia","postalCode":"TODO","addressRegion":"Veneto","addressCountry":"IT"},"sameAs":["https://instagram.com/"]}</script>
+</head>
+<body class="page-home">
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<div class="preloader" id="preloader" role="status" aria-live="polite">
+  <div class="preloader__logo">Venezia Eyewear</div>
+  <div class="preloader__track"><div class="preloader__bar" id="preBar"></div></div>
+  <div class="preloader__num" id="preNum">0%</div>
+  <span class="sr-only">Loading</span>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-follow" id="cursorFollow" aria-hidden="true"></div>
+
+<nav class="nav" id="nav" aria-label="Menu">
+  <a class="nav__logo" href="/en/">Venezia <span>Eyewear</span></a>
+  <ul class="nav__links">
+    <li><a class="nav__link" href="/en/collection/">Collection</a></li>
+    <li><a class="nav__link" href="/en/brand/">Brand</a></li>
+    <li><a class="nav__link" href="/en/craftsmanship/">Craftsmanship</a></li>
+    <li><a class="nav__link" href="/en/lookbook/">Lookbook</a></li>
+    <li><a class="nav__link" href="/en/stockists/">Stockists</a></li>
+    <li><a class="nav__link" href="/en/contact/">Contact</a></li>
+  </ul>
+  <div class="nav__right">
+    <div class="langs" role="group" aria-label="Language">
+    <a class="langs__item" href="/it/" hreflang="it" lang="it">it</a><span class="langs__sep">/</span><a class="langs__item" href="/en/" hreflang="en" lang="en" aria-current="true">en</a><span class="langs__sep">/</span><a class="langs__item" href="/es/" hreflang="es" lang="es">es</a>
+  </div>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="menu" id="menu" hidden>
+  <a class="menu__link" href="/en/collection/">Collection</a>
+  <a class="menu__link" href="/en/brand/">Brand</a>
+  <a class="menu__link" href="/en/craftsmanship/">Craftsmanship</a>
+  <a class="menu__link" href="/en/lookbook/">Lookbook</a>
+  <a class="menu__link" href="/en/stockists/">Stockists</a>
+  <a class="menu__link" href="/en/contact/">Contact</a>
+  <div class="langs menu__langs" role="group" aria-label="Language">
+    <a class="langs__item" href="/it/" hreflang="it" lang="it">it</a><span class="langs__sep">/</span><a class="langs__item" href="/en/" hreflang="en" lang="en" aria-current="true">en</a><span class="langs__sep">/</span><a class="langs__item" href="/es/" hreflang="es" lang="es">es</a>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="hero" id="hero">
+  <div class="hero__fallback" data-parallax="0.3"></div>
+  <canvas class="hero__canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero__noise"></div>
+  <div class="hero__line"></div>
+
+  <div class="hero__content">
+    <span class="hero__eyebrow" data-hero="1">Author eyewear — Venice</span>
+    <h1 class="hero__title" data-split>Venezia</h1>
+    <span class="hero__accent" data-hero="2">Eyewear</span>
+    <p class="hero__sub" data-hero="3">Eleven frames carrying the names of eleven places. Each one tells a part of the city that inspired it.</p>
+    <a class="btn-line" href="/en/collection/" data-hero="4">
+      <span class="btn-line__line"></span>Discover the collection<span class="btn-line__line"></span>
+    </a>
+  </div>
+
+  <div class="hero__scroll" data-hero="5">
+    <span>Scroll</span>
+    <div class="hero__ticker"></div>
+  </div>
+</section>
+<div class="stats">
+  <div class="stats__item" data-reveal>
+    <div class="stats__n" data-count="11">0</div>
+    <div class="stats__l">Models</div>
+  </div>
+  <div class="stats__item" data-reveal>
+    <div class="stats__n" data-count="3">0</div>
+    <div class="stats__l">Collections</div>
+  </div>
+  <div class="stats__item" data-reveal>
+    <div class="stats__n" data-count="33">0</div>
+    <div class="stats__l">Colour variants</div>
+  </div>
+  <div class="stats__item" data-reveal>
+    <div class="stats__n">∞</div>
+    <div class="stats__l">Elegance</div>
+  </div>
+</div>
+<section class="section" id="manifesto">
+  <div class="wrap manifesto">
+    <div class="manifesto__left" data-reveal>
+      <span class="eyebrow">The project</span>
+      <h2 class="h-section">Born of the <em>lagoon</em></h2>
+      <div class="rule" style="margin-top:1.5rem"></div>
+    </div>
+    <div class="manifesto__right">
+      <p class="lead" data-reveal style="margin-bottom:1.75rem">Venice is a city built on water by people who had no alternative. Everything came out of that necessity: the engineering, the trade, the beauty. <strong>Venezia Eyewear</strong> starts there — from the idea that perfect form is born of a constraint, not a whim.</p>
+      <p class="lead" data-reveal>From the <strong>Rialto</strong> to <strong>La Fenice</strong>, from the <strong>Arsenale</strong> to the <strong>Accademia</strong>, every frame carries the name of a specific place and inherits its character. This is not marketing: it is a design method.</p>
+      <div class="manifesto__list" data-reveal>
+        <div class="manifesto__item"><i></i>Italian design and engineering</div>
+        <div class="manifesto__item"><i></i>Selected acetates and metals</div>
+        <div class="manifesto__item"><i></i>Proportions worked out on real measurements</div>
+        <div class="manifesto__item"><i></i>Eleven models, no filler</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track" id="marquee">
+    <span>Murano</span><span class="dot">·</span><span>Rialto</span><span class="dot">·</span><span>Imperial</span><span class="dot">·</span><span>Serenissima</span><span class="dot">·</span><span>Aurora</span><span class="dot">·</span><span>Giulietta</span><span class="dot">·</span><span>Fenice</span><span class="dot">·</span><span>Arsenale</span><span class="dot">·</span><span>Lido</span><span class="dot">·</span><span>Laguna</span><span class="dot">·</span><span>Accademia</span><span class="dot">·</span><span>Murano</span><span class="dot">·</span><span>Rialto</span><span class="dot">·</span><span>Imperial</span><span class="dot">·</span><span>Serenissima</span><span class="dot">·</span><span>Aurora</span><span class="dot">·</span><span>Giulietta</span><span class="dot">·</span><span>Fenice</span><span class="dot">·</span><span>Arsenale</span><span class="dot">·</span><span>Lido</span><span class="dot">·</span><span>Laguna</span><span class="dot">·</span><span>Accademia</span><span class="dot">·</span>
+  </div>
+</div>
+<section class="section hscroll" id="featured">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <div>
+        <span class="eyebrow">Featured</span>
+        <h2 class="h-section">Favourites of the <em>season</em></h2>
+      </div>
+      <a class="btn-line" href="/en/collection/">
+        View all<span class="btn-line__line"></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hscroll__viewport" id="hscrollViewport">
+    <div class="hscroll__track" id="hscrollTrack">
+      <a class="hitem" href="/en/collection/murano/">
+        <div class="hitem__media">
+          <span class="hitem__idx">01</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Murano</div>
+        <div class="hitem__sub">Unisex · Round</div>
+      </a>
+      <a class="hitem" href="/en/collection/rialto/">
+        <div class="hitem__media">
+          <span class="hitem__idx">02</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Rialto</div>
+        <div class="hitem__sub">Unisex · Panthos</div>
+      </a>
+      <a class="hitem" href="/en/collection/imperial/">
+        <div class="hitem__media">
+          <span class="hitem__idx">03</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Imperial</div>
+        <div class="hitem__sub">Unisex · Square</div>
+      </a>
+      <a class="hitem" href="/en/collection/serenissima/">
+        <div class="hitem__media">
+          <span class="hitem__idx">04</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Serenissima</div>
+        <div class="hitem__sub">Women · Cat-eye</div>
+      </a>
+      <a class="hitem" href="/en/collection/aurora/">
+        <div class="hitem__media">
+          <span class="hitem__idx">05</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Aurora</div>
+        <div class="hitem__sub">Women · Round</div>
+      </a>
+      <a class="hitem" href="/en/collection/giulietta/">
+        <div class="hitem__media">
+          <span class="hitem__idx">06</span>
+          <div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      <span class="ph__label">Image coming soon</span>
+    </div>
+        </div>
+        <div class="hitem__name">Giulietta</div>
+        <div class="hitem__sub">Women · Oversize</div>
+      </a>
+    </div>
+  </div>
+  <div class="hint-drag">Drag to explore</div>
+</section>
+<section class="section" id="collections">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <div>
+        <span class="eyebrow">The collections</span>
+        <h2 class="h-section">Three ways of <em>looking</em></h2>
+      </div>
+    </div>
+  </div>
+  <div class="trio">
+    <a class="trio__card" href="/en/collection/?gender=uomo" data-reveal>
+      <div class="trio__bg"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <h3 class="trio__name">Men</h3>
+      <p class="trio__text">Structure, geometry, presence. Frames built to outlast trends.</p>
+      <span class="btn-line"><span class="btn-line__line"></span>Discover</span>
+    </a>
+    <a class="trio__card" href="/en/collection/?gender=donna" data-reveal>
+      <div class="trio__bg"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <h3 class="trio__name">Women</h3>
+      <p class="trio__text">Restrained curves and short proportions. Character without statements.</p>
+      <span class="btn-line"><span class="btn-line__line"></span>Discover</span>
+    </a>
+    <a class="trio__card" href="/en/collection/?gender=unisex" data-reveal>
+      <div class="trio__bg"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <h3 class="trio__name">Unisex</h3>
+      <p class="trio__text">The most essential shapes in the collection. They work on anyone with patience for detail.</p>
+      <span class="btn-line"><span class="btn-line__line"></span>Discover</span>
+    </a>
+  </div>
+</section>
+<section class="section" id="anatomy" style="background:var(--c-surface);border-block:1px solid var(--c-border)">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <div>
+        <span class="eyebrow">Anatomy</span>
+        <h2 class="h-section">Four measurements that <em>change everything</em></h2>
+        <p class="lead" style="margin-top:1.25rem;font-size:1rem">A frame is not beautiful or ugly in the abstract: it is right or wrong for one particular face. These are the four measurements that decide it.</p>
+      </div>
+    </div>
+    <div class="anatomy">
+      <div class="anatomy__figure" data-reveal>
+        <svg class="anatomy__svg" id="anatomySvg" viewBox="0 0 420 200" role="img" aria-label="Diagramma delle misure di una montatura">
+    <g class="frame">
+      <ellipse class="frame-line" cx="128" cy="96" rx="62" ry="44"/>
+      <ellipse class="frame-line" cx="292" cy="96" rx="62" ry="44"/>
+      <path class="frame-line" d="M190 86c12-9 28-9 40 0"/>
+      <path class="frame-line" d="M66 84 20 68"/>
+      <path class="frame-line" d="M354 84 400 68"/>
+    </g>
+    <g class="dims">
+      <g class="dim-line" data-dim="calibre">
+        <path d="M66 152h124M66 146v12M190 146v12"/>
+        <text x="128" y="172" fill="currentColor" font-size="11" text-anchor="middle" style="fill:var(--c-gold);font-family:var(--f-body);letter-spacing:.1em">CAL</text>
+      </g>
+      <g class="dim-line" data-dim="bridge">
+        <path d="M190 46h40M190 40v12M230 40v12"/>
+        <text x="210" y="32" fill="currentColor" font-size="11" text-anchor="middle" style="fill:var(--c-gold);font-family:var(--f-body);letter-spacing:.1em">PON</text>
+      </g>
+      <g class="dim-line" data-dim="front">
+        <path d="M20 186h380M20 180v12M400 180v12"/>
+        <text x="210" y="200" fill="currentColor" font-size="11" text-anchor="middle" style="fill:var(--c-gold);font-family:var(--f-body);letter-spacing:.1em">FRONT</text>
+      </g>
+      <g class="dim-line" data-dim="temple">
+        <path d="M354 84 400 68M400 68l6 14"/>
+        <text x="392" y="52" fill="currentColor" font-size="11" text-anchor="middle" style="fill:var(--c-gold);font-family:var(--f-body);letter-spacing:.1em">AST</text>
+      </g>
+    </g>
+  </svg>
+      </div>
+      <div class="anatomy__list" data-reveal>
+        <div class="anatomy__row" data-dim="calibre" tabindex="0" role="button" aria-pressed="false">
+          <div class="anatomy__k">Eye size</div>
+          <div class="anatomy__v">The width of one lens. It determines how much of the face the frame occupies.</div>
+        </div>
+        <div class="anatomy__row" data-dim="bridge" tabindex="0" role="button" aria-pressed="false">
+          <div class="anatomy__k">Bridge</div>
+          <div class="anatomy__v">The distance between the lenses. It decides whether the frame slides down the nose.</div>
+        </div>
+        <div class="anatomy__row" data-dim="front" tabindex="0" role="button" aria-pressed="false">
+          <div class="anatomy__k">Front width</div>
+          <div class="anatomy__v">The total width of the front. It should follow the width of the cheekbones.</div>
+        </div>
+        <div class="anatomy__row" data-dim="temple" tabindex="0" role="button" aria-pressed="false">
+          <div class="anatomy__k">Temple</div>
+          <div class="anatomy__v">The length of the temple. It decides how the frame holds behind the ear.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="quote">
+  <div class="quote__glow"></div>
+  <div class="quote__mark" aria-hidden="true">&ldquo;</div>
+  <div class="wrap">
+    <blockquote class="quote__text" data-reveal>Venice is not visited: it is crossed. And every time it hands back a detail that wasn&#39;t there before.</blockquote>
+    <div class="rule" style="margin:0 auto 1.25rem"></div>
+    <div class="quote__attr">Venezia Eyewear</div>
+  </div>
+</section>
+<section class="section" id="lookbook-teaser">
+  <div class="wrap">
+    <div class="shead" data-reveal>
+      <div>
+        <span class="eyebrow">Lookbook</span>
+        <h2 class="h-section">The collection <em>worn</em></h2>
+      </div>
+      <a class="btn-line" href="/en/lookbook/">
+        Browse the lookbook<span class="btn-line__line"></span>
+      </a>
+    </div>
+    <div class="lbteaser">
+      <div class="lbteaser__item" data-reveal data-parallax="0.08"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <div class="lbteaser__item" data-reveal data-parallax="0.08"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <div class="lbteaser__item" data-reveal data-parallax="0.08"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+      <div class="lbteaser__item" data-reveal data-parallax="0.08"><div class="ph" aria-hidden="true">
+      <svg class="ph__glasses" viewBox="0 0 200 64" fill="none" stroke="currentColor" stroke-width="1.2" style="color:var(--c-gold)">
+        <ellipse cx="52" cy="32" rx="34" ry="24"/>
+        <ellipse cx="148" cy="32" rx="34" ry="24"/>
+        <path d="M86 28c5-4 23-4 28 0"/>
+        <path d="M18 26 2 20"/>
+        <path d="M182 26 198 20"/>
+      </svg>
+      
+    </div></div>
+    </div>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="ctaband" data-reveal>
+      <div>
+        <span class="eyebrow">Where to find us</span>
+        <h2 class="h-sub">Eyewear has to be <em>tried on</em></h2>
+      </div>
+      <div>
+        <p class="lead" style="font-size:1rem;margin-bottom:2rem">Proportions are judged in a mirror, not on a screen. Find your nearest optician or request an appointment.</p>
+        <a class="btn" href="/en/stockists/">Find a stockist</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section--tight" id="newsletter">
+  <div class="wrap news">
+    <div data-reveal>
+      <h2 class="h-sub">New models, first</h2>
+      <p class="lead" style="font-size:1rem;margin-top:1rem">A few emails a year, only when something new comes out.</p>
+    </div>
+    <form class="news__form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-form data-reveal
+      data-required="Required field" data-success="Message sent. We will reply within two working days." data-error="Something went wrong. Please try again or email us directly.">
+      <input type="hidden" name="form-name" value="newsletter">
+      <input type="hidden" name="lang" value="en">
+      <p class="field--hp"><label>Bot<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="field">
+        <label class="field__label" for="nl-email">Email</label>
+        <input class="field__input" type="email" id="nl-email" name="email" required placeholder="Your email" autocomplete="email">
+      </div>
+      <button class="btn" type="submit">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__logo">Venezia <span>Eyewear</span></div>
+        <p class="footer__tagline">Eyewear inspired by the Serenissima. Italian design, measurements and character.</p>
+      </div>
+      <div class="footer__col">
+        <h2>Collection</h2>
+        <ul>
+          <li><a href="/en/collection/?gender=uomo">Men</a></li>
+          <li><a href="/en/collection/?gender=donna">Women</a></li>
+          <li><a href="/en/collection/?gender=unisex">Unisex</a></li>
+          <li><a href="/en/collection/">All models</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Brand</h2>
+        <ul>
+          <li><a href="/en/brand/">Our story</a></li>
+          <li><a href="/en/craftsmanship/">Craftsmanship</a></li>
+          <li><a href="/en/lookbook/">Lookbook</a></li>
+          <li><a href="/en/contact/">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h2>Information</h2>
+        <ul>
+          <li><a href="/en/stockists/">Find a stockist</a></li>
+          <li><a href="/en/privacy/">Privacy policy</a></li>
+          <li><a href="/en/cookies/">Cookie policy</a></li>
+          <li><a href="/en/legal-notice/">Legal notice</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © 2026 Venezia Eyewear. All rights reserved.
+        &nbsp;·&nbsp; <a href="https://kinetixlab.it" rel="noopener">Kinetix Lab</a>
+      </div>
+      <div class="footer__sign">Born of the lagoon, worn in the world.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/vendor.js" defer></script>
+<script type="module" src="/assets/js/main.js"></script>
+<script type="module" src="/assets/js/hero.js"></script>
+</body>
+</html>

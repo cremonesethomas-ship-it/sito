@@ -1,0 +1,27 @@
+{
+  "_note": "PLACEHOLDER: sostituire con i dati aziendali reali prima del lancio. Ogni valore con TODO va confermato.",
+  "name": "Venezia Eyewear",
+  "domain": "https://veneziaeyewear.com",
+  "email": "info@veneziaeyewear.com",
+  "phone": "+39 000 000 0000",
+  "legalName": "Venezia Eyewear TODO S.r.l.",
+  "vat": "TODO",
+  "address": {
+    "street": "TODO",
+    "city": "Venezia",
+    "zip": "TODO",
+    "region": "Veneto",
+    "country": "IT"
+  },
+  "social": {
+    "instagram": "https://instagram.com/",
+    "facebook": "",
+    "linkedin": ""
+  },
+  "year": 2026,
+  "credits": {
+    "agency": "Kinetix Lab",
+    "url": "https://kinetixlab.it"
+  },
+  "todo": ["legalName", "vat", "address.street", "address.zip", "phone", "email", "social.instagram", "domain"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "venezia-eyewear",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Sito statico multilingua Venezia Eyewear — Kinetix Lab",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "serve": "npx serve dist",
+    "check": "node tools/check.mjs"
+  }
+}

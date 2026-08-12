@@ -1,0 +1,4 @@
+# Redirect di cortesia dai vecchi percorsi senza lingua
+/collezione/*   /it/collezione/:splat   301
+/collection/*   /en/collection/:splat   301
+/coleccion/*    /es/coleccion/:splat    301

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Venezia Eyewear</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://veneziaeyewear.com/it/">
+<link rel="alternate" hreflang="it" href="https://veneziaeyewear.com/it/">
+<link rel="alternate" hreflang="en" href="https://veneziaeyewear.com/en/">
+<link rel="alternate" hreflang="es" href="https://veneziaeyewear.com/es/">
+<link rel="alternate" hreflang="x-default" href="https://veneziaeyewear.com/it/">
+<script>
+(function () {
+  var supported = ["it","en","es"];
+  var saved = null;
+  try { saved = localStorage.getItem('ve-lang'); } catch (e) {}
+  var nav = (navigator.language || 'it').slice(0, 2).toLowerCase();
+  var lang = supported.indexOf(saved) > -1 ? saved
+           : supported.indexOf(nav) > -1 ? nav
+           : 'it';
+  location.replace('/' + lang + '/');
+})();
+</script>
+<meta http-equiv="refresh" content="0;url=/it/">
+</head>
+<body style="background:#080808"><a href="/it/" style="color:#c9a84c;font-family:sans-serif;padding:2rem;display:block">Venezia Eyewear</a></body>
+</html>

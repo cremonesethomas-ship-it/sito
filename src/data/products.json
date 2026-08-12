@@ -1,0 +1,280 @@
+{
+  "_note": "Campi 'shape' e 'material' sono PROVVISORI: dedotti da nome e misure, da confermare con le foto reali. Campo 'images' si popola in fase F0.",
+  "products": [
+    {
+      "id": "murano",
+      "name": "Murano",
+      "audience": "unisex",
+      "shape": "round",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 49, "bridge": 19, "front": 149, "temple": 145 },
+      "colors": [
+        { "id": "marrone-sfumato", "hex": ["#6b4a2f", "#c39a6b"], "it": "Marrone Sfumato", "en": "Gradient Brown", "es": "Marrón Degradado" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "grigio-trasparente", "hex": ["#8d8d8d", "#c9c9c9"], "it": "Grigio Trasparente", "en": "Transparent Grey", "es": "Gris Transparente" }
+      ],
+      "tagline": {
+        "it": "La trasparenza come disciplina",
+        "en": "Transparency as a discipline",
+        "es": "La transparencia como disciplina"
+      },
+      "inspiration": {
+        "it": "Ispirato all'isola dei maestri vetrai, dove da mille anni la sabbia diventa luce. Murano è la montatura più essenziale della collezione: nessuna linea superflua, nessun gesto decorativo. Il calibro contenuto e il ponte generoso costruiscono un equilibrio che si nota solo dopo, come accade con le cose fatte bene.",
+        "en": "Inspired by the island of the master glassmakers, where sand has been turning into light for a thousand years. Murano is the most essential frame in the collection: no superfluous line, no decorative gesture. A contained eye size and a generous bridge build a balance you only notice afterwards, the way it happens with things made well.",
+        "es": "Inspirada en la isla de los maestros vidrieros, donde desde hace mil años la arena se convierte en luz. Murano es la montura más esencial de la colección: ninguna línea superflua, ningún gesto decorativo. El calibre contenido y el puente generoso construyen un equilibrio que se advierte después, como ocurre con las cosas bien hechas."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "rialto",
+      "name": "Rialto",
+      "audience": "unisex",
+      "shape": "panthos",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 52, "bridge": 18, "front": 146, "temple": 145 },
+      "colors": [
+        { "id": "marrone-sfumato", "hex": ["#6b4a2f", "#c39a6b"], "it": "Marrone Sfumato", "en": "Gradient Brown", "es": "Marrón Degradado" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "bianco-intenso", "hex": ["#f2efe8", "#d8d3c7"], "it": "Bianco Intenso", "en": "Intense White", "es": "Blanco Intenso" }
+      ],
+      "tagline": {
+        "it": "Un arco che regge da cinquecento anni",
+        "en": "An arch that has held for five hundred years",
+        "es": "Un arco que sostiene desde hace quinientos años"
+      },
+      "inspiration": {
+        "it": "Il Ponte di Rialto tiene insieme le due rive di Venezia con una sola campata, e lo fa dal 1591. Da quell'idea di struttura che diventa eleganza nasce questa montatura: il frontale largo distribuisce il peso visivo, il profilo panthos ammorbidisce lo sguardo. Architettura indossabile, senza retorica.",
+        "en": "The Rialto Bridge has held the two banks of Venice together with a single span since 1591. From that idea — structure becoming elegance — this frame was born: a wide front distributes the visual weight, the panthos profile softens the gaze. Wearable architecture, without rhetoric.",
+        "es": "El Puente de Rialto une las dos orillas de Venecia con un solo arco, y lo hace desde 1591. De esa idea de estructura que se vuelve elegancia nace esta montura: el frontal ancho distribuye el peso visual, el perfil panthos suaviza la mirada. Arquitectura para llevar puesta, sin retórica."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial",
+      "audience": "unisex",
+      "shape": "square",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 53, "bridge": 20, "front": 146, "temple": 145 },
+      "colors": [
+        { "id": "tartaruga-scura", "hex": ["#3b2416", "#7a4f2a"], "it": "Tartaruga Scura", "en": "Dark Havana", "es": "Carey Oscura" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "grigio-trasparente", "hex": ["#8d8d8d", "#c9c9c9"], "it": "Grigio Trasparente", "en": "Transparent Grey", "es": "Gris Transparente" }
+      ],
+      "tagline": {
+        "it": "La presenza dei palazzi sul Canal Grande",
+        "en": "The presence of the palaces on the Grand Canal",
+        "es": "La presencia de los palacios del Gran Canal"
+      },
+      "inspiration": {
+        "it": "I palazzi che si affacciano sul Canal Grande non chiedono attenzione: la ottengono. Imperial lavora sullo stesso principio, con spessori decisi e un frontale che occupa lo spazio senza invaderlo. È la montatura per chi entra in una stanza e non ha bisogno di alzare la voce.",
+        "en": "The palaces along the Grand Canal do not ask for attention: they command it. Imperial works on the same principle, with confident thicknesses and a front that occupies space without invading it. This is the frame for someone who walks into a room and does not need to raise their voice.",
+        "es": "Los palacios que se asoman al Gran Canal no piden atención: la obtienen. Imperial funciona con el mismo principio, con espesores decididos y un frontal que ocupa el espacio sin invadirlo. Es la montura de quien entra en una sala y no necesita levantar la voz."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "serenissima",
+      "name": "Serenissima",
+      "audience": "donna",
+      "shape": "cat-eye",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 52, "bridge": 17, "front": 140, "temple": 140 },
+      "colors": [
+        { "id": "tartaruga-blu-rosa", "hex": ["#2f3f5c", "#c98fa0"], "it": "Tartaruga Blu-Rosa Perla", "en": "Blue-Pink Pearl Havana", "es": "Carey Azul-Rosa Perla" },
+        { "id": "tartaruga-nero-perla", "hex": ["#1a1a1a", "#8a8378"], "it": "Tartaruga Nero-Perla", "en": "Black-Pearl Havana", "es": "Carey Negro-Perla" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" }
+      ],
+      "tagline": {
+        "it": "Mille anni di repubblica in un profilo",
+        "en": "A thousand years of republic in a single profile",
+        "es": "Mil años de república en un perfil"
+      },
+      "inspiration": {
+        "it": "Serenissima non era solo il nome di uno stato: era una promessa di compostezza. La montatura la traduce in un profilo cat-eye trattenuto, che sale appena agli angoli e si ferma un attimo prima di diventare dichiarazione. Proporzioni corte, asta leggera, un'autorità che non ha bisogno di essere spiegata.",
+        "en": "Serenissima was not merely the name of a state: it was a promise of composure. The frame translates it into a restrained cat-eye profile that lifts slightly at the corners and stops just short of becoming a statement. Short proportions, a light temple, an authority that needs no explanation.",
+        "es": "Serenissima no era solo el nombre de un estado: era una promesa de compostura. La montura lo traduce en un perfil cat-eye contenido, que asciende apenas en las esquinas y se detiene un instante antes de convertirse en declaración. Proporciones cortas, varilla ligera, una autoridad que no necesita explicarse."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "audience": "donna",
+      "shape": "round",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 51, "bridge": 17, "front": 140, "temple": 140 },
+      "colors": [
+        { "id": "tartaruga-miele", "hex": ["#8a5a22", "#d6a86a"], "it": "Tartaruga Miele", "en": "Honey Havana", "es": "Carey Miel" },
+        { "id": "bianco-vintage", "hex": ["#e8e2d4", "#cdc4b0"], "it": "Bianco Vintage", "en": "Vintage White", "es": "Blanco Vintage" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" }
+      ],
+      "tagline": {
+        "it": "I sei minuti in cui la laguna cambia colore",
+        "en": "The six minutes in which the lagoon changes colour",
+        "es": "Los seis minutos en que la laguna cambia de color"
+      },
+      "inspiration": {
+        "it": "C'è un momento, poco prima dell'alba, in cui l'acqua della laguna passa dal grigio all'oro e nessuno se ne accorge perché la città dorme ancora. Aurora nasce da quei sei minuti: forme morbide, calibro contenuto, colori che sembrano illuminati da dentro. La montatura più discreta della collezione, e la più difficile da dimenticare.",
+        "en": "There is a moment just before dawn when the water of the lagoon turns from grey to gold, and nobody notices because the city is still asleep. Aurora was born from those six minutes: soft shapes, a contained eye size, colours that seem lit from within. The most discreet frame in the collection, and the hardest to forget.",
+        "es": "Hay un momento, poco antes del amanecer, en que el agua de la laguna pasa del gris al oro y nadie lo advierte porque la ciudad aún duerme. Aurora nace de esos seis minutos: formas suaves, calibre contenido, colores que parecen iluminados desde dentro. La montura más discreta de la colección, y la más difícil de olvidar."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "giulietta",
+      "name": "Giulietta",
+      "audience": "donna",
+      "shape": "oversize",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 55, "bridge": 16, "front": 142, "temple": 140 },
+      "colors": [
+        { "id": "tartaruga-perlata-verde", "hex": ["#2f4032", "#8fa07a"], "it": "Tartaruga Perlata Verde", "en": "Green Pearl Havana", "es": "Carey Perlado Verde" },
+        { "id": "tartaruga-perlata-rossa", "hex": ["#5c1f1f", "#b06a5a"], "it": "Tartaruga Perlata Rossa", "en": "Red Pearl Havana", "es": "Carey Perlado Rojo" },
+        { "id": "bianco-vintage", "hex": ["#e8e2d4", "#cdc4b0"], "it": "Bianco Vintage", "en": "Vintage White", "es": "Blanco Vintage" }
+      ],
+      "tagline": {
+        "it": "Il romanticismo senza lo zucchero",
+        "en": "Romance without the sugar",
+        "es": "El romanticismo sin azúcar"
+      },
+      "inspiration": {
+        "it": "Il calibro più generoso della collezione, tenuto insieme da un ponte stretto: è questo contrasto a dare a Giulietta il suo carattere. Curve piene dove ci si aspetta rigore, misura dove ci si aspetta eccesso. Un romanticismo adulto, che sa esattamente quello che fa.",
+        "en": "The most generous eye size in the collection, held together by a narrow bridge: this contrast is what gives Giulietta its character. Full curves where you expect rigour, restraint where you expect excess. A grown-up romanticism that knows exactly what it is doing.",
+        "es": "El calibre más generoso de la colección, sostenido por un puente estrecho: ese contraste es lo que da carácter a Giulietta. Curvas plenas donde se espera rigor, medida donde se espera exceso. Un romanticismo adulto, que sabe exactamente lo que hace."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "fenice",
+      "name": "Fenice",
+      "audience": "donna",
+      "shape": "panthos",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 53, "bridge": 18, "front": 142, "temple": 145 },
+      "colors": [
+        { "id": "verde-trasparente", "hex": ["#2f5c4a", "#8fbfa8"], "it": "Verde Trasparente", "en": "Transparent Green", "es": "Verde Transparente" },
+        { "id": "tartaruga-scura", "hex": ["#3b2416", "#7a4f2a"], "it": "Tartaruga Scura", "en": "Dark Havana", "es": "Carey Oscura" },
+        { "id": "nero-bianco-perla", "hex": ["#0d0d0d", "#efe9dc"], "it": "Nero / Bianco Perla", "en": "Black / Pearl White", "es": "Negro / Blanco Perla" }
+      ],
+      "tagline": {
+        "it": "Bruciato tre volte, ricostruito tre volte",
+        "en": "Burned three times, rebuilt three times",
+        "es": "Quemado tres veces, reconstruido tres veces"
+      },
+      "inspiration": {
+        "it": "Il Teatro La Fenice ha preso fuoco tre volte e tre volte è tornato identico a sé stesso, per ostinazione di una città che non accetta di perdere le proprie cose belle. Questa montatura porta quel nome con rispetto: linee teatrali, curve che si aprono verso l'esterno, una presenza che occupa la scena senza chiedere il permesso.",
+        "en": "La Fenice opera house burned three times and three times returned identical to itself, through the stubbornness of a city that refuses to lose its beautiful things. This frame carries that name with respect: theatrical lines, curves opening outwards, a presence that takes the stage without asking permission.",
+        "es": "El Teatro La Fenice ardió tres veces y tres veces volvió idéntico a sí mismo, por la obstinación de una ciudad que no acepta perder sus cosas bellas. Esta montura lleva ese nombre con respeto: líneas teatrales, curvas que se abren hacia fuera, una presencia que ocupa la escena sin pedir permiso."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "arsenale",
+      "name": "Arsenale",
+      "audience": "uomo",
+      "shape": "square",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 53, "bridge": 20, "front": 146, "temple": 145 },
+      "colors": [
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "tartaruga-scura", "hex": ["#3b2416", "#7a4f2a"], "it": "Tartaruga Scura", "en": "Dark Havana", "es": "Carey Oscuro" },
+        { "id": "verde-trasparente", "hex": ["#2f5c4a", "#8fbfa8"], "it": "Verde Trasparente", "en": "Transparent Green", "es": "Verde Transparente" }
+      ],
+      "tagline": {
+        "it": "Dove Venezia costruiva una nave al giorno",
+        "en": "Where Venice built a ship a day",
+        "es": "Donde Venecia construía un barco al día"
+      },
+      "inspiration": {
+        "it": "Nell'Arsenale, al culmine della Repubblica, si varava una galea al giorno: la prima catena di montaggio della storia, cinque secoli prima di Detroit. Da lì viene questa montatura: geometria squadrata, ponte largo, nessuna concessione. Fatta per durare più a lungo di chi la giudica.",
+        "en": "At the Arsenale, at the height of the Republic, a galley was launched every day: the first assembly line in history, five centuries before Detroit. This frame comes from there: squared geometry, a wide bridge, no concessions. Built to outlast anyone judging it.",
+        "es": "En el Arsenal, en el apogeo de la República, se botaba una galera al día: la primera cadena de montaje de la historia, cinco siglos antes de Detroit. De ahí viene esta montura: geometría cuadrada, puente ancho, ninguna concesión. Hecha para durar más que quien la juzga."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "lido",
+      "name": "Lido",
+      "audience": "uomo",
+      "shape": "panthos",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 52, "bridge": 20, "front": 147, "temple": 145 },
+      "colors": [
+        { "id": "grigio-intenso", "hex": ["#4a4a4a", "#8f8f8f"], "it": "Grigio Intenso", "en": "Deep Grey", "es": "Gris Intenso" },
+        { "id": "tartaruga-scura", "hex": ["#3b2416", "#7a4f2a"], "it": "Tartaruga Scura", "en": "Dark Havana", "es": "Carey Oscuro" },
+        { "id": "nero-trasparente", "hex": ["#0d0d0d", "#b9b9b9"], "it": "Nero / Trasparente", "en": "Black / Transparent", "es": "Negro / Transparente" }
+      ],
+      "tagline": {
+        "it": "L'unica strada di Venezia dove si può correre",
+        "en": "The only road in Venice where you can run",
+        "es": "La única calle de Venecia donde se puede correr"
+      },
+      "inspiration": {
+        "it": "Il Lido è la parte di Venezia che ha le automobili, la spiaggia e il festival del cinema: la città quando si toglie il costume da museo. Lido è la montatura più versatile della collezione, quella che funziona in ufficio alle nove e a cena alle nove di sera senza cambiare registro.",
+        "en": "The Lido is the part of Venice with cars, a beach and the film festival: the city with its museum costume off. Lido is the most versatile frame in the collection — the one that works at nine in the morning at the office and at nine in the evening at dinner without changing register.",
+        "es": "El Lido es la parte de Venecia que tiene coches, playa y festival de cine: la ciudad cuando se quita el disfraz de museo. Lido es la montura más versátil de la colección, la que funciona en la oficina a las nueve y en una cena a las nueve de la noche sin cambiar de registro."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "laguna",
+      "name": "Laguna",
+      "audience": "uomo",
+      "shape": "double-bridge",
+      "material": "metal-acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 55, "bridge": 18, "front": 145, "temple": 145 },
+      "colors": [
+        { "id": "marrone-degrade", "hex": ["#5a3d28", "#c2a184"], "it": "Marrone Degradé", "en": "Gradient Brown", "es": "Marrón Degradado" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "tartaruga-chiara", "hex": ["#8a6234", "#d9b98c"], "it": "Tartaruga Chiara", "en": "Light Havana", "es": "Carey Claro" }
+      ],
+      "tagline": {
+        "it": "Cinquantacinque centimetri d'acqua sopra il fango",
+        "en": "Fifty-five centimetres of water above the mud",
+        "es": "Cincuenta y cinco centímetros de agua sobre el fango"
+      },
+      "inspiration": {
+        "it": "La laguna è profonda in media poco più di un metro: tutta la potenza di Venezia si è retta su un equilibrio sottilissimo tra acqua e fango. Laguna traduce quell'idea in un doppio ponte che sembra sospeso, un calibro ampio e un peso che sulla faccia quasi non si sente. Struttura visibile, leggerezza reale.",
+        "en": "The lagoon is on average barely more than a metre deep: all the power of Venice rested on a razor-thin balance between water and mud. Laguna translates that idea into a double bridge that seems suspended, a wide eye size and a weight you barely feel on the face. Visible structure, real lightness.",
+        "es": "La laguna tiene una profundidad media de poco más de un metro: todo el poder de Venecia se sostuvo sobre un equilibrio finísimo entre agua y fango. Laguna traduce esa idea en un doble puente que parece suspendido, un calibre amplio y un peso que en la cara casi no se nota. Estructura visible, ligereza real."
+      },
+      "images": { "main": null, "gallery": [] }
+    },
+    {
+      "id": "accademia",
+      "name": "Accademia",
+      "audience": "uomo",
+      "shape": "rectangle",
+      "material": "acetate",
+      "provisional": ["shape", "material"],
+      "specs": { "calibre": 54, "bridge": 18, "front": 143, "temple": 145 },
+      "colors": [
+        { "id": "azzurro-trasparente", "hex": ["#3a5c7a", "#9dc3d8"], "it": "Azzurro Trasparente", "en": "Transparent Blue", "es": "Azul Transparente" },
+        { "id": "nero-lucido", "hex": ["#0d0d0d", "#2a2a2a"], "it": "Nero Lucido", "en": "Glossy Black", "es": "Negro Brillante" },
+        { "id": "grigio-trasparente", "hex": ["#8d8d8d", "#c9c9c9"], "it": "Grigio Trasparente", "en": "Transparent Grey", "es": "Gris Transparente" }
+      ],
+      "tagline": {
+        "it": "Il ponte che doveva essere provvisorio",
+        "en": "The bridge that was meant to be temporary",
+        "es": "El puente que debía ser provisional"
+      },
+      "inspiration": {
+        "it": "Il Ponte dell'Accademia fu costruito in legno come soluzione temporanea, in attesa di qualcosa di più degno. È ancora lì, ottant'anni dopo, ed è diventato uno dei punti più fotografati della città. Accademia ha la stessa logica: linee rette, nessun effetto, un'ergonomia studiata al millimetro. Le cose giuste non hanno bisogno di essere sostituite.",
+        "en": "The Accademia Bridge was built in wood as a temporary solution, pending something more worthy. It is still there eighty years later, and it has become one of the most photographed spots in the city. Accademia follows the same logic: straight lines, no effects, ergonomics worked out to the millimetre. The right things never need replacing.",
+        "es": "El Puente de la Academia se construyó en madera como solución temporal, a la espera de algo más digno. Sigue ahí ochenta años después, y se ha convertido en uno de los lugares más fotografiados de la ciudad. Accademia sigue la misma lógica: líneas rectas, ningún efecto, una ergonomía estudiada al milímetro. Las cosas acertadas no necesitan ser sustituidas."
+      },
+      "images": { "main": null, "gallery": [] }
+    }
+  ]
+}

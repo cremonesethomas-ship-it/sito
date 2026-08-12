@@ -1,0 +1,44 @@
+{
+  "_note": "PLACEHOLDER: elenco di esempio. Sostituire con i punti vendita reali. Struttura pronta per la ricerca per città/CAP.",
+  "retailers": [
+    {
+      "id": "demo-venezia",
+      "name": "Ottica Demo Venezia",
+      "address": "Calle Larga XXII Marzo 1",
+      "city": "Venezia",
+      "zip": "30124",
+      "region": "Veneto",
+      "country": "IT",
+      "phone": "+39 041 000000",
+      "lat": 45.4326,
+      "lng": 12.3345,
+      "placeholder": true
+    },
+    {
+      "id": "demo-padova",
+      "name": "Ottica Demo Padova",
+      "address": "Via Roma 10",
+      "city": "Padova",
+      "zip": "35122",
+      "region": "Veneto",
+      "country": "IT",
+      "phone": "+39 049 000000",
+      "lat": 45.4064,
+      "lng": 11.8768,
+      "placeholder": true
+    },
+    {
+      "id": "demo-milano",
+      "name": "Ottica Demo Milano",
+      "address": "Corso Venezia 5",
+      "city": "Milano",
+      "zip": "20121",
+      "region": "Lombardia",
+      "country": "IT",
+      "phone": "+39 02 0000000",
+      "lat": 45.4700,
+      "lng": 9.1980,
+      "placeholder": true
+    }
+  ]
+}
